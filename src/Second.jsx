@@ -1,6 +1,4 @@
-import React from "react";
-import { Github, Linkedin, Mail, FileText } from "lucide-react";
-import { Link } from "react-router-dom";
+import { Github, Linkedin, Mail } from "lucide-react";
 import Navbar from "./components/Navbar";
 const Second = () => {
   return (

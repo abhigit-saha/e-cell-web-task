@@ -10,6 +10,7 @@ function GridEl({ red, index }) {
 }
 GridEl.propTypes = {
   red: PropTypes.number.isRequired, // Define the expected type of the 'red' prop
+  index: PropTypes.number.isRequired, // Define the expected type of the 'index' prop
 };
 
 export default GridEl;

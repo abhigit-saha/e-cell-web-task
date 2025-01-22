@@ -1,4 +1,3 @@
-import React from "react";
 import Grid from "./components/Grid";
 import Navbar from "./components/Navbar";
 import Image from "./components/Image";
