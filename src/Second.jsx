@@ -1,18 +1,27 @@
 import { Github, Linkedin, Mail } from "lucide-react";
 import Navbar from "./components/Navbar";
+import pfp from "./assets/pfp.png";
 const Second = () => {
   return (
     <>
       <Navbar />
       <div className="min-h-screen bg-gradient-to-b from-purple-900 to-black text-white p-8">
         <main className="max-w-4xl mx-auto">
-          <div className="mb-16 space-y-6">
+          <div className="mb-16 space-y-6 text-center">
+            {/* Placeholder for Image */}
+            <div className="w-32 h-32 mx-auto rounded-full overflow-hidden border-4 border-pink-500">
+              <img
+                src={pfp}
+                alt="Abhijit Saha"
+                className="w-full h-full object-cover"
+              />
+            </div>
             <h1 className="text-6xl font-bold tracking-wider">
               PLAYER
               <span className="text-pink-500"> 20236004</span>
             </h1>
             <h2 className="text-3xl font-light">Fullstack Developer</h2>
-            <p className="text-gray-300 max-w-xl">
+            <p className="text-gray-300 max-w-xl mx-auto">
               Welcome to the game. I am Abhijit Saha. I am a fullstack
               developer.
             </p>
